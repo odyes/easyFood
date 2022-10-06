@@ -9,11 +9,11 @@
 class Food {
     var nombre: String
     var descripcion: String
-    var escena: String
+    var foto: String
     
-    init (nombre: String, descripcion: String, escena: String){
+    init (nombre: String, descripcion: String, foto: String){
         self.nombre = nombre
         self.descripcion = descripcion
-        self.escena = escena
+        self.foto = foto
     }
 }

@@ -6,10 +6,4 @@
 //  Copyright © 2022 ulsa. All rights reserved.
 //
 
-class Ingredientes{
-    var ingredientes : String
     
-    init(ingredientes: String){
-        self.ingredientes = ingredientes
-    }
-}

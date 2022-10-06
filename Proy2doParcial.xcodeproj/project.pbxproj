@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D012E8428EC90E600CAD6FB /* CeldaIngredientesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D012E8328EC90E600CAD6FB /* CeldaIngredientesController.swift */; };
-		3D012E8628EC910300CAD6FB /* Ingredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D012E8528EC910300CAD6FB /* Ingredientes.swift */; };
+		3D012E8628EC910300CAD6FB /* Detalles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D012E8528EC910300CAD6FB /* Detalles.swift */; };
 		3D1D876B28EC897A00773E51 /* CeldaFoodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D876A28EC897A00773E51 /* CeldaFoodController.swift */; };
 		3D1D876D28EC89C200773E51 /* DetallesFoodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D876C28EC89C200773E51 /* DetallesFoodController.swift */; };
 		3D1D876F28EC89EB00773E51 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D876E28EC89EB00773E51 /* Food.swift */; };
@@ -19,10 +19,6 @@
 		3DD1CF3128E5EFC300263C9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD1CF2F28E5EFC300263C9A /* LaunchScreen.storyboard */; };
 		3DD1CF3C28E5EFC400263C9A /* Proy2doParcialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD1CF3B28E5EFC400263C9A /* Proy2doParcialTests.swift */; };
 		3DD1CF4728E5EFC400263C9A /* Proy2doParcialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD1CF4628E5EFC400263C9A /* Proy2doParcialUITests.swift */; };
-		3DD1CF5A28E5FABD00263C9A /* MADEOkineSansPERSONALUSE-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DD1CF5928E5FABD00263C9A /* MADEOkineSansPERSONALUSE-Regular.otf */; };
-		3DD1CF5C28E5FAE100263C9A /* MADEOkineSansPERSONALUSE-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DD1CF5B28E5FAE100263C9A /* MADEOkineSansPERSONALUSE-Thin.otf */; };
-		3DD1CF5E28E5FB0300263C9A /* Cohaerentia-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DD1CF5D28E5FB0300263C9A /* Cohaerentia-Regular.ttf */; };
-		3DD1CF6028E5FB1500263C9A /* Cohaerentia-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DD1CF5F28E5FB1500263C9A /* Cohaerentia-Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		3D012E8328EC90E600CAD6FB /* CeldaIngredientesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaIngredientesController.swift; sourceTree = "<group>"; };
-		3D012E8528EC910300CAD6FB /* Ingredientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredientes.swift; sourceTree = "<group>"; };
+		3D012E8528EC910300CAD6FB /* Detalles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detalles.swift; sourceTree = "<group>"; };
 		3D1D876A28EC897A00773E51 /* CeldaFoodController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaFoodController.swift; sourceTree = "<group>"; };
 		3D1D876C28EC89C200773E51 /* DetallesFoodController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesFoodController.swift; sourceTree = "<group>"; };
 		3D1D876E28EC89EB00773E51 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
@@ -61,10 +57,6 @@
 		3DD1CF4228E5EFC400263C9A /* Proy2doParcialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Proy2doParcialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD1CF4628E5EFC400263C9A /* Proy2doParcialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proy2doParcialUITests.swift; sourceTree = "<group>"; };
 		3DD1CF4828E5EFC400263C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3DD1CF5928E5FABD00263C9A /* MADEOkineSansPERSONALUSE-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MADEOkineSansPERSONALUSE-Regular.otf"; path = "../../made_okine_sans/MADEOkineSansPERSONALUSE-Regular.otf"; sourceTree = "<group>"; };
-		3DD1CF5B28E5FAE100263C9A /* MADEOkineSansPERSONALUSE-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MADEOkineSansPERSONALUSE-Thin.otf"; path = "../../made_okine_sans/MADEOkineSansPERSONALUSE-Thin.otf"; sourceTree = "<group>"; };
-		3DD1CF5D28E5FB0300263C9A /* Cohaerentia-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cohaerentia-Regular.ttf"; path = "../../cohaerentia/Cohaerentia-Regular.ttf"; sourceTree = "<group>"; };
-		3DD1CF5F28E5FB1500263C9A /* Cohaerentia-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cohaerentia-Italic.ttf"; path = "../../cohaerentia/Cohaerentia-Italic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,7 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				3D1D876E28EC89EB00773E51 /* Food.swift */,
-				3D012E8528EC910300CAD6FB /* Ingredientes.swift */,
+				3D012E8528EC910300CAD6FB /* Detalles.swift */,
 			);
 			name = Modelos;
 			sourceTree = "<group>";
@@ -183,10 +175,6 @@
 		3DD1CF5828E5F06200263C9A /* Recursos */ = {
 			isa = PBXGroup;
 			children = (
-				3DD1CF5F28E5FB1500263C9A /* Cohaerentia-Italic.ttf */,
-				3DD1CF5D28E5FB0300263C9A /* Cohaerentia-Regular.ttf */,
-				3DD1CF5B28E5FAE100263C9A /* MADEOkineSansPERSONALUSE-Thin.otf */,
-				3DD1CF5928E5FABD00263C9A /* MADEOkineSansPERSONALUSE-Regular.otf */,
 				3DD1CF2D28E5EFC300263C9A /* Assets.xcassets */,
 			);
 			name = Recursos;
@@ -296,11 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DD1CF5C28E5FAE100263C9A /* MADEOkineSansPERSONALUSE-Thin.otf in Resources */,
-				3DD1CF5E28E5FB0300263C9A /* Cohaerentia-Regular.ttf in Resources */,
 				3DD1CF3128E5EFC300263C9A /* LaunchScreen.storyboard in Resources */,
-				3DD1CF5A28E5FABD00263C9A /* MADEOkineSansPERSONALUSE-Regular.otf in Resources */,
-				3DD1CF6028E5FB1500263C9A /* Cohaerentia-Italic.ttf in Resources */,
 				3DD1CF2E28E5EFC300263C9A /* Assets.xcassets in Resources */,
 				3DD1CF2C28E5EFBD00263C9A /* Main.storyboard in Resources */,
 			);
@@ -331,7 +315,7 @@
 				3D1D876D28EC89C200773E51 /* DetallesFoodController.swift in Sources */,
 				3D012E8428EC90E600CAD6FB /* CeldaIngredientesController.swift in Sources */,
 				3D1D876F28EC89EB00773E51 /* Food.swift in Sources */,
-				3D012E8628EC910300CAD6FB /* Ingredientes.swift in Sources */,
+				3D012E8628EC910300CAD6FB /* Detalles.swift in Sources */,
 				3DD1CF2928E5EFBD00263C9A /* FoodController.swift in Sources */,
 				3DD1CF2728E5EFBC00263C9A /* AppDelegate.swift in Sources */,
 			);

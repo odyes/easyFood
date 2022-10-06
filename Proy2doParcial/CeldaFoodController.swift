@@ -10,7 +10,8 @@ import UIKit
 
 class CeldaFoodController : UITableViewCell{
     
-    @IBOutlet weak var imgEscena: UIImageView!
+    
+    @IBOutlet weak var imgFoto: UIImageView!
     @IBOutlet weak var lblDescripcion: UILabel!
     @IBOutlet weak var lblNombre: UILabel!
     
