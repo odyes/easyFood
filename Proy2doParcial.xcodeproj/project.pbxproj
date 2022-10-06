@@ -12,6 +12,7 @@
 		3D1D876B28EC897A00773E51 /* CeldaFoodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D876A28EC897A00773E51 /* CeldaFoodController.swift */; };
 		3D1D876D28EC89C200773E51 /* DetallesFoodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D876C28EC89C200773E51 /* DetallesFoodController.swift */; };
 		3D1D876F28EC89EB00773E51 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D876E28EC89EB00773E51 /* Food.swift */; };
+		3D3DA9BD28EF39EF008768F2 /* Ingrediente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3DA9BC28EF39EF008768F2 /* Ingrediente.swift */; };
 		3DD1CF2728E5EFBC00263C9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD1CF2628E5EFBC00263C9A /* AppDelegate.swift */; };
 		3DD1CF2928E5EFBD00263C9A /* FoodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD1CF2828E5EFBD00263C9A /* FoodController.swift */; };
 		3DD1CF2C28E5EFBD00263C9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD1CF2A28E5EFBD00263C9A /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		3D1D876A28EC897A00773E51 /* CeldaFoodController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaFoodController.swift; sourceTree = "<group>"; };
 		3D1D876C28EC89C200773E51 /* DetallesFoodController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesFoodController.swift; sourceTree = "<group>"; };
 		3D1D876E28EC89EB00773E51 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		3D3DA9BC28EF39EF008768F2 /* Ingrediente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingrediente.swift; sourceTree = "<group>"; };
 		3DD1CF2328E5EFBC00263C9A /* Proy2doParcial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proy2doParcial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD1CF2628E5EFBC00263C9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DD1CF2828E5EFBD00263C9A /* FoodController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodController.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			children = (
 				3D1D876E28EC89EB00773E51 /* Food.swift */,
 				3D012E8528EC910300CAD6FB /* Detalles.swift */,
+				3D3DA9BC28EF39EF008768F2 /* Ingrediente.swift */,
 			);
 			name = Modelos;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 			files = (
 				3D1D876B28EC897A00773E51 /* CeldaFoodController.swift in Sources */,
 				3D1D876D28EC89C200773E51 /* DetallesFoodController.swift in Sources */,
+				3D3DA9BD28EF39EF008768F2 /* Ingrediente.swift in Sources */,
 				3D012E8428EC90E600CAD6FB /* CeldaIngredientesController.swift in Sources */,
 				3D1D876F28EC89EB00773E51 /* Food.swift in Sources */,
 				3D012E8628EC910300CAD6FB /* Detalles.swift in Sources */,
