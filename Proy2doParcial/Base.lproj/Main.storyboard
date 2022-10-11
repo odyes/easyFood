@@ -54,8 +54,9 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="laL-gP-hwg">
-                                                    <rect key="frame" x="170" y="11" width="187.66666666666663" height="34.666666666666664"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="laL-gP-hwg">
+                                                    <rect key="frame" x="170" y="11" width="61.333333333333343" height="34.666666666666664"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -74,11 +75,7 @@
                                             <constraints>
                                                 <constraint firstItem="0KZ-Dl-VEN" firstAttribute="height" secondItem="eIQ-MK-ya0" secondAttribute="height" multiplier="0.8" id="2w8-nV-f7F"/>
                                                 <constraint firstItem="0KZ-Dl-VEN" firstAttribute="width" secondItem="eIQ-MK-ya0" secondAttribute="width" multiplier="0.4" id="5T7-sx-c7O"/>
-                                                <constraint firstItem="laL-gP-hwg" firstAttribute="width" secondItem="eIQ-MK-ya0" secondAttribute="width" multiplier="0.5" id="Gso-AE-7SG"/>
-                                                <constraint firstItem="laL-gP-hwg" firstAttribute="top" secondItem="eIQ-MK-ya0" secondAttribute="topMargin" multiplier="0.1" constant="10" id="Lxe-Ck-5Mk"/>
                                                 <constraint firstItem="0KZ-Dl-VEN" firstAttribute="top" secondItem="eIQ-MK-ya0" secondAttribute="topMargin" constant="10" id="Nfm-O4-dXD"/>
-                                                <constraint firstItem="laL-gP-hwg" firstAttribute="height" secondItem="eIQ-MK-ya0" secondAttribute="height" multiplier="0.2" id="RQ7-dA-n1j"/>
-                                                <constraint firstItem="laL-gP-hwg" firstAttribute="leading" secondItem="0KZ-Dl-VEN" secondAttribute="trailing" constant="5" id="WiL-D2-Yzz"/>
                                                 <constraint firstItem="0KZ-Dl-VEN" firstAttribute="leading" secondItem="eIQ-MK-ya0" secondAttribute="leadingMargin" id="kTw-SQ-LXk"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -143,6 +140,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="lblElemento" destination="GMp-b5-0wT" id="34w-0G-Hi4"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -266,8 +266,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Receta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iIE-lP-JbB">
-                                <rect key="frame" x="16" y="577" width="54" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Receta" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iIE-lP-JbB">
+                                <rect key="frame" x="16" y="577" width="343" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>

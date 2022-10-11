@@ -21,7 +21,7 @@ class DetallesFoodController: UIViewController{
     
     @IBOutlet weak var imgFoto: UIImageView!
     
-    var detalles : Detalles?
+    var foods : Food?
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 172
@@ -38,18 +38,52 @@ class DetallesFoodController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if detalles != nil {
-            self.title = detalles!.nombre
-            lblReceta.text = detalles!.receta
-            lblProteinas.text = detalles!.proteinas
-            lblCarbo.text = detalles!.carbo
-            lblSodio.text = detalles!.sodio
-            lblColesterol.text = detalles!.colesterol
-            lblGrasas.text = detalles!.grasas
-            lblCalorias.text = detalles!.calorias
-            lblCantidad.text = detalles!.cantidad
+        if foods != nil {
+            self.title = foods!.nombre
+            lblReceta.text = foods!.receta
+            lblProteinas.text = foods!.proteinas
+            lblCarbo.text = foods!.carbo
+            lblSodio.text = foods!.sodio
+            lblColesterol.text = foods!.colesterol
+            lblGrasas.text = foods!.grasas
+            lblCalorias.text = foods!.calorias
+            lblCantidad.text = foods!.cantidad
             
-            imgFoto.image = UIImage(named: "\(detalles!.foto)2")
+            imgFoto.image = UIImage(named: "\(foods!.foto)2")
+        }else{
+            self.title = "Detalles Food"
         }
     }
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 49
+    }
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return foods!.ingredientes.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let celda = tableView.dequeueReusableCell(withIdentifier: "celdaIngredientes") as? CeldaIngredientesController
+        celda?.lblElemento.text = foods!.ingredientes[indexPath.row].elemento
+        return celda!
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

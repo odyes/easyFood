@@ -10,10 +10,28 @@ class Food {
     var nombre: String
     var descripcion: String
     var foto: String
+    var receta : String
+    var proteinas : String
+    var carbo : String
+    var sodio : String
+    var colesterol : String
+    var grasas : String
+    var calorias : String
+    var cantidad : String
+    var ingredientes: [Ingrediente]
     
-    init (nombre: String, descripcion: String, foto: String){
+    init (nombre: String, descripcion: String, foto: String, receta: String, proteinas: String, carbo: String, sodio: String, colesterol: String, grasas: String, calorias: String, cantidad: String, ingredientes: [Ingrediente]){
         self.nombre = nombre
         self.descripcion = descripcion
         self.foto = foto
+        self.receta = receta
+        self.proteinas = proteinas
+        self.carbo = carbo
+        self.sodio = sodio
+        self.colesterol = colesterol
+        self.grasas = grasas
+        self.calorias = calorias
+        self.cantidad = cantidad
+        self.ingredientes = ingredientes
     }
 }
