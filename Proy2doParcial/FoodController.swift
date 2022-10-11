@@ -13,6 +13,21 @@ class FoodController : UIViewController, UITableViewDelegate, UITableViewDataSou
     
     var food : [Food] = []
     var ingredientesEn : [Ingrediente] = []
+    var ingredientesBon : [Ingrediente] = []
+    var ingredientesChi : [Ingrediente] = []
+    var ingredientesAli : [Ingrediente] = []
+    var ingredientesHam : [Ingrediente] = []
+    var ingredientesCal : [Ingrediente] = []
+    var ingredientesAro : [Ingrediente] = []
+    var ingredientesCalz : [Ingrediente] = []
+    var ingredientesEn : [Ingrediente] = []
+    var ingredientesEn : [Ingrediente] = []
+    var ingredientesEn : [Ingrediente] = []
+    var ingredientesEn : [Ingrediente] = []
+    var ingredientesEn : [Ingrediente] = []
+    var ingredientesEn : [Ingrediente] = []
+    var ingredientesEn : [Ingrediente] = []
+    var ingredientesEn : [Ingrediente] = []
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 172
@@ -37,7 +52,7 @@ class FoodController : UIViewController, UITableViewDelegate, UITableViewDataSou
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destino = segue.destination as! DetallesFoodController
-        destino.foods = food[tvDeporte.indexPathForSelectedRow!.row]
+        destino.foods = food[tvReceta.indexPathForSelectedRow!.row]
     }
     
     
