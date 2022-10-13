@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DetallesFoodController: UIViewController{
+class DetallesFoodController: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
     @IBOutlet weak var lblReceta: UILabel!
     @IBOutlet weak var lblProteinas: UILabel!
@@ -23,13 +23,6 @@ class DetallesFoodController: UIViewController{
     
     var foods : Food?
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 172
-    }
-    
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
     
     //func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
        // return detalles.count
@@ -54,9 +47,11 @@ class DetallesFoodController: UIViewController{
             self.title = "Detalles Food"
         }
     }
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 49
     }
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
