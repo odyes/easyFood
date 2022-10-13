@@ -44,7 +44,8 @@ class FoodController : UIViewController, UITableViewDelegate, UITableViewDataSou
         let celda = tableView.dequeueReusableCell(withIdentifier: "celdaFood") as? CeldaFoodController
         celda?.lblNombre.text = food[indexPath.row].nombre
         celda?.lblDescripcion.text = food[indexPath.row].descripcion
-        celda?.imgFoto.layer.cornerRadius = 5
+        celda?.imgFoto.layer.cornerRadius = 10
+        celda?.imgFoto.clipsToBounds = true
         celda?.imgFoto.image = UIImage(named: food[indexPath.row].foto)
         return celda!
     }
@@ -59,6 +60,9 @@ class FoodController : UIViewController, UITableViewDelegate, UITableViewDataSou
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        tvFood.separatorColor = UIColor.clear
+        
         ingredientesEn.append(Ingrediente(elemento: "150 gr queso añejo"))
         ingredientesEn.append(Ingrediente(elemento: "150 gr queso añejo"))
         ingredientesEn.append(Ingrediente(elemento: "150 gr queso añejo"))
@@ -150,6 +154,7 @@ class FoodController : UIViewController, UITableViewDelegate, UITableViewDataSou
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        ///////////////////
     }
 
 

@@ -21,6 +21,7 @@ class DetallesFoodController: UIViewController, UITableViewDelegate, UITableView
     
     @IBOutlet weak var imgFoto: UIImageView!
     
+    @IBOutlet var tvReceta: CeldaFoodController!
     var foods : Food?
     
     
@@ -32,6 +33,7 @@ class DetallesFoodController: UIViewController, UITableViewDelegate, UITableView
         super.viewDidLoad()
         
         if foods != nil {
+            //tvReceta.backgroundColor = .clear
             self.title = foods!.nombre
             lblReceta.text = foods!.receta
             lblProteinas.text = foods!.proteinas
@@ -41,6 +43,10 @@ class DetallesFoodController: UIViewController, UITableViewDelegate, UITableView
             lblGrasas.text = foods!.grasas
             lblCalorias.text = foods!.calorias
             lblCantidad.text = foods!.cantidad
+            
+           
+            
+            
             
             imgFoto.image = UIImage(named: "\(foods!.foto)2")
         }else{
