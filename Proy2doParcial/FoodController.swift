@@ -63,75 +63,72 @@ class FoodController : UIViewController, UITableViewDelegate, UITableViewDataSou
         
         tvFood.separatorColor = UIColor.clear
         
+        ingredientesEns.append(Ingrediente(elemento: "Lechuga"))
+        ingredientesEns.append(Ingrediente(elemento: "200 gr de pollo"))
+        ingredientesEns.append(Ingrediente(elemento: "Sopa"))
+        ingredientesEns.append(Ingrediente(elemento: "Panela"))
+        ingredientesEns.append(Ingrediente(elemento: "Champiñón"))
+        
+        ingredientesBon.append(Ingrediente(elemento: "250 gr de pollo "))
+        ingredientesBon.append(Ingrediente(elemento: "Salsa BBQ"))
+        ingredientesBon.append(Ingrediente(elemento: "Empanzador"))
+        
+        ingredientesChi.append(Ingrediente(elemento: "Totopos"))
+        ingredientesChi.append(Ingrediente(elemento: "Salsa roja"))
+        ingredientesChi.append(Ingrediente(elemento: "Queso"))
+        
+        ingredientesAli.append(Ingrediente(elemento: "250 gr de alitas de pollo crudo"))
+        ingredientesAli.append(Ingrediente(elemento: "Salsa BBQ"))
+        ingredientesAli.append(Ingrediente(elemento: "Empanizador"))
+        
+        ingredientesHam.append(Ingrediente(elemento: "Carne de hamburguesa"))
+        ingredientesHam.append(Ingrediente(elemento: "Pan"))
+        ingredientesHam.append(Ingrediente(elemento: "Lechuga"))
+        ingredientesHam.append(Ingrediente(elemento: "Queso"))
+        
+        ingredientesCalz.append(Ingrediente(elemento: "Masa de pizza"))
+        ingredientesCalz.append(Ingrediente(elemento: "Salsa de tomate"))
+        ingredientesCalz.append(Ingrediente(elemento: "Peperonni"))
+        
+        ingredientesAro.append(Ingrediente(elemento: "Cebolla"))
+        ingredientesAro.append(Ingrediente(elemento: "Empanizador"))
+        
+        ingredientesCal.append(Ingrediente(elemento: "150 gr de carne de res"))
+        ingredientesCal.append(Ingrediente(elemento: "Papa"))
+        ingredientesCal.append(Ingrediente(elemento: "Consomé"))
+        ingredientesCal.append(Ingrediente(elemento: "Elote"))
+        
+        ingredientesEn.append(Ingrediente(elemento: "Tortillas"))
         ingredientesEn.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesEn.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesEn.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesEn.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesEn.append(Ingrediente(elemento: "150 gr queso añejo"))
+        ingredientesEn.append(Ingrediente(elemento: "Pollo"))
+        ingredientesEn.append(Ingrediente(elemento: "Salsa verde"))
         
-        ingredientesBon.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesBon.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesBon.append(Ingrediente(elemento: "150 gr queso añejo"))
+        ingredientesFet.append(Ingrediente(elemento: "Salsa"))
+        ingredientesFet.append(Ingrediente(elemento: "Queso"))
+        ingredientesFet.append(Ingrediente(elemento: "Pasta"))
         
-        ingredientesChi.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesChi.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesChi.append(Ingrediente(elemento: "150 gr queso añejo"))
+        ingredientesLas.append(Ingrediente(elemento: "Pasta"))
+        ingredientesLas.append(Ingrediente(elemento: "Carne molida"))
+        ingredientesLas.append(Ingrediente(elemento: "Queso"))
+        ingredientesLas.append(Ingrediente(elemento: "Salsa"))
         
-        ingredientesAli.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesAli.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesAli.append(Ingrediente(elemento: "150 gr queso añejo"))
+        ingredientesMole.append(Ingrediente(elemento: "Pollo"))
+        ingredientesMole.append(Ingrediente(elemento: "Mole"))
+        ingredientesMole.append(Ingrediente(elemento: "Arroz"))
         
-        ingredientesHam.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesHam.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesHam.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesHam.append(Ingrediente(elemento: "150 gr queso añejo"))
+        ingredientesPizza.append(Ingrediente(elemento: "Queso"))
+        ingredientesPizza.append(Ingrediente(elemento: "Peperonni"))
+        ingredientesPizza.append(Ingrediente(elemento: "Masa de pizza"))
+        ingredientesPizza.append(Ingrediente(elemento: "Salsa de tomate"))
         
-        ingredientesCal.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesCal.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesCal.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesCal.append(Ingrediente(elemento: "150 gr queso añejo"))
+        ingredientesPure.append(Ingrediente(elemento: "Papa"))
+        ingredientesPure.append(Ingrediente(elemento: "Queso"))
+        ingredientesPure.append(Ingrediente(elemento: "Sal y pimienta"))
         
-        ingredientesAro.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesAro.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesAro.append(Ingrediente(elemento: "150 gr queso añejo"))
-        
-        ingredientesCalz.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesCalz.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesCalz.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesCalz.append(Ingrediente(elemento: "150 gr queso añejo"))
-        
-        ingredientesEns.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesEns.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesEns.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesEns.append(Ingrediente(elemento: "150 gr queso añejo"))
-        
-        ingredientesFet.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesFet.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesFet.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesFet.append(Ingrediente(elemento: "150 gr queso añejo"))
-        
-        ingredientesLas.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesLas.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesLas.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesLas.append(Ingrediente(elemento: "150 gr queso añejo"))
-        
-        ingredientesMole.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesMole.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesMole.append(Ingrediente(elemento: "150 gr queso añejo"))
-        
-        ingredientesPizza.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesPizza.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesPizza.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesPizza.append(Ingrediente(elemento: "150 gr queso añejo"))
-        
-        ingredientesPure.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesPure.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesPure.append(Ingrediente(elemento: "150 gr queso añejo"))
-        
-        ingredientesTamal.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesTamal.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesTamal.append(Ingrediente(elemento: "150 gr queso añejo"))
-        ingredientesTamal.append(Ingrediente(elemento: "150 gr queso añejo"))
+        ingredientesTamal.append(Ingrediente(elemento: "Carne"))
+        ingredientesTamal.append(Ingrediente(elemento: "Papa"))
+        ingredientesTamal.append(Ingrediente(elemento: "Masa de tamal"))
+        ingredientesTamal.append(Ingrediente(elemento: "Aceitunas"))
         
         food.append(Food(nombre: "Enchiladas", descripcion: "Son un plato de la gastronomía de México y Centroamérica, en cada país la preparación e ingredientes son diferentes", foto: "enchiladas", receta: "1.- Freír la salsa resultante en tres cucharadas de manteca caliente y condimentarla con sal al gusto. 2.- Añadir el caldo y continuar el cocimiento hasta que tome consistencia. 3.- Humedecer las tortillas en el chile y freirías en bastante manteca caliente. 4.- Rellenarlas con queso, pechuga, papas, zanahorias y cebolla picada. 5.- Doblar las tortillas a la mitad y cubrirlas con más salsa; adornar con rebanadas de cebolla y queso", proteinas: "6g", carbo: "16g", sodio: "687mg", colesterol: "21mg", grasas: "9g", calorias: "168", cantidad: "100 gramos", ingredientes: ingredientesEn))
         food.append(Food(nombre: "Boneless", descripcion: "Trocitos de pechuga de pollo, sin hueso, empanizados y bañados en una deliciosa salsa", foto: "boneless", receta: "1.- SALPIMIENTA los cubos de pollo. 2.- PASA por harina y huevo batido. Espolvorea y repite el procedimiento. 3.- CALIENTA el aceite y fríe en aceite a fuego medio por 4 minutos.4.- FRÍE en aceite caliente hasta que se doren. Escurre sobre papel absorbente. 5.- Baña en salsa de tu preferencia", proteinas: "6g", carbo: "16g", sodio: "687mg", colesterol: "21mg", grasas: "9g", calorias: "168", cantidad: "100 gramos", ingredientes: ingredientesBon))

@@ -69,14 +69,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripción" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m1W-70-95l">
-                                                    <rect key="frame" x="170" y="46.999999999999993" width="187.66666666666663" height="94.333333333333314"/>
+                                                    <rect key="frame" x="170" y="47.000000000000007" width="187.66666666666663" height="94.666666666666686"/>
                                                     <color key="backgroundColor" red="0.85088747740000004" green="0.85103398559999999" blue="0.85087817909999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" name="LouisGeorgeCafe" family="Louis George Cafe" pointSize="14"/>
                                                     <color key="textColor" red="0.21027977240000001" green="0.36979482489999999" blue="0.38420050760000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="laL-gP-hwg">
-                                                    <rect key="frame" x="170" y="22" width="187.66666666666663" height="17.333333333333329"/>
+                                                    <rect key="frame" x="170" y="22" width="187.66666666666663" height="17.666666666666671"/>
                                                     <fontDescription key="fontDescription" name="LouisGeorgeCafe-Bold" family="Louis George Cafe" pointSize="17"/>
                                                     <color key="textColor" red="0.21027977235835324" green="0.36979482492314758" blue="0.3842005076142132" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -85,7 +85,7 @@
                                                     <rect key="frame" x="15" y="21" width="150" height="137.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ver receta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJ4-ge-kQa">
-                                                    <rect key="frame" x="303" y="145.33333333333334" width="64.666666666666686" height="15.666666666666657"/>
+                                                    <rect key="frame" x="302.66666666666669" y="145" width="65" height="16"/>
                                                     <fontDescription key="fontDescription" name="LouisGeorgeCafe" family="Louis George Cafe" pointSize="14"/>
                                                     <color key="textColor" red="0.58768242390000003" green="0.091449077599999998" blue="0.21954759260000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -224,19 +224,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sodio:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13e-Se-ple">
-                                <rect key="frame" x="208" y="357" width="40" height="17"/>
+                                <rect key="frame" x="208" y="356.66666666666669" width="40" height="17"/>
                                 <fontDescription key="fontDescription" name="LouisGeorgeCafe" family="Louis George Cafe" pointSize="15"/>
                                 <color key="textColor" red="0.21027977240000001" green="0.36979482489999999" blue="0.38420050760000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Carbohidratos:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3xE-D6-9la">
-                                <rect key="frame" x="208" y="386" width="100" height="17"/>
+                                <rect key="frame" x="208" y="385.66666666666669" width="100" height="17"/>
                                 <fontDescription key="fontDescription" name="LouisGeorgeCafe" family="Louis George Cafe" pointSize="15"/>
                                 <color key="textColor" red="0.21027977240000001" green="0.36979482489999999" blue="0.38420050760000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Proteínas:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tu8-GE-zEc">
-                                <rect key="frame" x="208" y="415" width="66" height="17"/>
+                                <rect key="frame" x="208" y="414.66666666666669" width="66" height="17"/>
                                 <fontDescription key="fontDescription" name="LouisGeorgeCafe" family="Louis George Cafe" pointSize="15"/>
                                 <color key="textColor" red="0.21027977240000001" green="0.36979482489999999" blue="0.38420050760000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -297,10 +297,10 @@
                             </label>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jEG-00-j0X">
                                 <rect key="frame" x="186" y="348" width="3" height="97.333333333333314"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.21027977240000001" green="0.36979482489999999" blue="0.38420050760000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredientes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iSy-Rd-1oM">
-                                <rect key="frame" x="16" y="600" width="337.66666666666669" height="40.666666666666629"/>
+                                <rect key="frame" x="16" y="600.66666666666663" width="337.66666666666669" height="40.666666666666629"/>
                                 <fontDescription key="fontDescription" name="LouisGeorgeCafe-Bold" family="Louis George Cafe" pointSize="17"/>
                                 <color key="textColor" red="0.21027977240000001" green="0.36979482489999999" blue="0.38420050760000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -318,6 +318,7 @@
                             <constraint firstItem="VmK-YA-3S9" firstAttribute="top" secondItem="1aK-qt-HbI" secondAttribute="bottom" constant="11" id="Cf3-mJ-0g5"/>
                             <constraint firstItem="KPe-c4-gKP" firstAttribute="top" secondItem="1aK-qt-HbI" secondAttribute="bottom" constant="33" id="Csg-qx-xiY"/>
                             <constraint firstItem="13e-Se-ple" firstAttribute="top" secondItem="KPe-c4-gKP" secondAttribute="bottom" constant="10.333333333333314" id="DO7-an-MtM"/>
+                            <constraint firstItem="jEG-00-j0X" firstAttribute="leading" secondItem="NuJ-L6-FI6" secondAttribute="trailing" constant="30" id="Dwn-aK-vbg"/>
                             <constraint firstItem="jEG-00-j0X" firstAttribute="centerX" secondItem="JUQ-Zp-EbH" secondAttribute="centerX" id="F4J-fq-qKi"/>
                             <constraint firstItem="fH4-Nw-zIy" firstAttribute="leading" secondItem="JUQ-Zp-EbH" secondAttribute="leading" constant="16" id="Fpw-Wr-dnh"/>
                             <constraint firstItem="KPe-c4-gKP" firstAttribute="width" secondItem="GF5-gD-lHX" secondAttribute="width" multiplier="0.5" id="GLo-BN-6V4"/>
@@ -330,6 +331,7 @@
                             <constraint firstItem="jEG-00-j0X" firstAttribute="centerX" secondItem="GF5-gD-lHX" secondAttribute="centerX" id="PqP-e9-0Y1"/>
                             <constraint firstItem="cWz-AD-dBO" firstAttribute="width" secondItem="GF5-gD-lHX" secondAttribute="width" multiplier="0.25" id="Q8x-nr-Bq8"/>
                             <constraint firstItem="J1J-z3-g7e" firstAttribute="top" secondItem="NuJ-L6-FI6" secondAttribute="bottom" constant="14" id="QV9-NA-gWC"/>
+                            <constraint firstItem="jEG-00-j0X" firstAttribute="leading" secondItem="JD9-dW-vKb" secondAttribute="trailing" constant="1" id="ReU-Up-rZR"/>
                             <constraint firstItem="iIE-lP-JbB" firstAttribute="top" secondItem="bZ0-BZ-fCR" secondAttribute="bottom" constant="4" id="S48-8G-kC9"/>
                             <constraint firstItem="3xE-D6-9la" firstAttribute="top" secondItem="13e-Se-ple" secondAttribute="bottom" constant="12" id="SpA-fr-1mv"/>
                             <constraint firstItem="iSy-Rd-1oM" firstAttribute="top" secondItem="iIE-lP-JbB" secondAttribute="bottom" constant="6.3300000000000001" id="UQO-C0-nxa"/>
