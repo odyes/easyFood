@@ -84,10 +84,16 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0KZ-Dl-VEN">
                                                     <rect key="frame" x="15" y="21" width="150" height="137.66666666666666"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ver receta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJ4-ge-kQa">
-                                                    <rect key="frame" x="302.66666666666669" y="145" width="65" height="16"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Origen:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZjG-HX-YCp">
+                                                    <rect key="frame" x="170" y="137" width="46" height="16"/>
                                                     <fontDescription key="fontDescription" name="LouisGeorgeCafe" family="Louis George Cafe" pointSize="14"/>
-                                                    <color key="textColor" red="0.58768242390000003" green="0.091449077599999998" blue="0.21954759260000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="textColor" red="0.25128036737442017" green="0.36101353168487549" blue="0.36990219354629517" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kod-Da-FKp">
+                                                    <rect key="frame" x="224" y="137" width="29.666666666666657" height="16"/>
+                                                    <fontDescription key="fontDescription" name="LouisGeorgeCafe" family="Louis George Cafe" pointSize="14"/>
+                                                    <color key="textColor" red="0.25128036739999998" green="0.3610135317" blue="0.36990219349999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -97,14 +103,16 @@
                                                 <constraint firstItem="0KZ-Dl-VEN" firstAttribute="height" secondItem="eIQ-MK-ya0" secondAttribute="height" multiplier="0.8" id="2w8-nV-f7F"/>
                                                 <constraint firstItem="0KZ-Dl-VEN" firstAttribute="width" secondItem="eIQ-MK-ya0" secondAttribute="width" multiplier="0.4" id="5T7-sx-c7O"/>
                                                 <constraint firstItem="laL-gP-hwg" firstAttribute="height" secondItem="eIQ-MK-ya0" secondAttribute="height" multiplier="0.1" id="5vj-ec-ZOW"/>
-                                                <constraint firstAttribute="trailing" secondItem="RJ4-ge-kQa" secondAttribute="trailing" constant="7.3333333333333144" id="N5X-5b-uAg"/>
+                                                <constraint firstItem="ZjG-HX-YCp" firstAttribute="leading" secondItem="0KZ-Dl-VEN" secondAttribute="trailing" constant="5" id="62h-6J-4rc"/>
                                                 <constraint firstItem="0KZ-Dl-VEN" firstAttribute="top" secondItem="eIQ-MK-ya0" secondAttribute="topMargin" constant="10" id="Nfm-O4-dXD"/>
                                                 <constraint firstItem="m1W-70-95l" firstAttribute="leading" secondItem="0KZ-Dl-VEN" secondAttribute="trailing" constant="5" id="S93-d3-rzQ"/>
                                                 <constraint firstItem="m1W-70-95l" firstAttribute="top" secondItem="laL-gP-hwg" secondAttribute="bottom" constant="7.6699999999999999" id="Xm6-tb-mtO"/>
                                                 <constraint firstItem="m1W-70-95l" firstAttribute="width" secondItem="eIQ-MK-ya0" secondAttribute="width" multiplier="0.5" id="auv-fr-kcq"/>
+                                                <constraint firstAttribute="bottom" secondItem="ZjG-HX-YCp" secondAttribute="bottom" constant="18.666666666666657" id="e4w-AS-W8i"/>
+                                                <constraint firstItem="Kod-Da-FKp" firstAttribute="leading" secondItem="ZjG-HX-YCp" secondAttribute="trailing" constant="8" id="eHE-AR-TDb"/>
                                                 <constraint firstItem="m1W-70-95l" firstAttribute="height" secondItem="eIQ-MK-ya0" secondAttribute="height" multiplier="0.55" id="eg6-S8-m9N"/>
                                                 <constraint firstItem="0KZ-Dl-VEN" firstAttribute="leading" secondItem="eIQ-MK-ya0" secondAttribute="leadingMargin" id="kTw-SQ-LXk"/>
-                                                <constraint firstAttribute="bottom" secondItem="RJ4-ge-kQa" secondAttribute="bottom" constant="10.666666666666657" id="uOk-Yo-q23"/>
+                                                <constraint firstAttribute="bottom" secondItem="Kod-Da-FKp" secondAttribute="bottom" constant="18.666666666666657" id="x8O-AN-aSI"/>
                                                 <constraint firstItem="laL-gP-hwg" firstAttribute="leading" secondItem="0KZ-Dl-VEN" secondAttribute="trailing" constant="5" id="yqG-pK-9di"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -114,6 +122,7 @@
                                             <outlet property="imgFoto" destination="0KZ-Dl-VEN" id="HKl-zP-0K2"/>
                                             <outlet property="lblDescripcion" destination="m1W-70-95l" id="g75-Kz-QdR"/>
                                             <outlet property="lblNombre" destination="laL-gP-hwg" id="c7j-7v-ivz"/>
+                                            <outlet property="lblOrigen" destination="Kod-Da-FKp" id="3Tf-bq-dxw"/>
                                             <segue destination="VgN-ix-VyH" kind="show" id="GB8-A5-1wq"/>
                                         </connections>
                                     </tableViewCell>

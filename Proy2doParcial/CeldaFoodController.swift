@@ -14,5 +14,6 @@ class CeldaFoodController : UITableViewCell{
     @IBOutlet weak var imgFoto: UIImageView!
     @IBOutlet weak var lblDescripcion: UILabel!
     @IBOutlet weak var lblNombre: UILabel!
+    @IBOutlet weak var lblOrigen: UILabel!
     
 }

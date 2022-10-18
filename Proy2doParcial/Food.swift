@@ -9,6 +9,7 @@
 class Food {
     var nombre: String
     var descripcion: String
+    var origen: String
     var foto: String
     var receta : String
     var proteinas : String
@@ -20,9 +21,10 @@ class Food {
     var cantidad : String
     var ingredientes: [Ingrediente]
     
-    init (nombre: String, descripcion: String, foto: String, receta: String, proteinas: String, carbo: String, sodio: String, colesterol: String, grasas: String, calorias: String, cantidad: String, ingredientes: [Ingrediente]){
+    init (nombre: String, descripcion: String, origen: String, foto: String, receta: String, proteinas: String, carbo: String, sodio: String, colesterol: String, grasas: String, calorias: String, cantidad: String, ingredientes: [Ingrediente]){
         self.nombre = nombre
         self.descripcion = descripcion
+        self.origen = origen
         self.foto = foto
         self.receta = receta
         self.proteinas = proteinas
